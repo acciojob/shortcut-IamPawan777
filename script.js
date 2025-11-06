@@ -1,5 +1,16 @@
 function shortcut(s1, s2) {
   // your code here
+	// let first = s
+	if(s1.length===0 || s2.length===0){
+		return '';
+	}
+	else{
+		let a = s1.charAt(0);
+		let b = s2.charAt(0);
+		return a+b;
+	}
+
+
 }
 
 // Do not change the code below.
